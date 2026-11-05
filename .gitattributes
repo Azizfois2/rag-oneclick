@@ -1,0 +1,9 @@
+# Git stores text as LF; Windows launchers are checked out as CRLF.
+* text=auto
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.zip binary

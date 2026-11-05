@@ -1,0 +1,13 @@
+# Secrets and local state
+.env
+logs/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.executed.ipynb
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

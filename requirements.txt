@@ -1,0 +1,19 @@
+# Pinned to the versions verified working on 2026-10-18 (Python 3.11.9, Windows).
+# torch is pulled in by sentence-transformers and left unpinned on purpose:
+# it is large and platform-specific, so let pip pick the right wheel.
+langchain-core==1.6.12
+langchain-oracledb==1.6.0
+langchain-openai==1.7.2
+langchain-google-genai==4.4.2
+langchain-huggingface==1.2.3
+langgraph==1.2.16
+sentence-transformers==6.1.0
+transformers==5.20.1
+oracledb==26.0.1
+numpy==2.4.6
+python-dotenv==1.2.4
+packaging==25.0
+jupyterlab==4.6.4
+ipykernel==7.4.0
+nbclient>=0.10
+nbformat>=5.10
